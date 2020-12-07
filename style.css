@@ -1,0 +1,208 @@
+html {
+    background-color: grey;
+}
+
+.victim-list li{
+    list-style-type: decimal;
+    margin-left: 18px;
+}
+
+header{
+    display: inline;
+}
+
+header .judul {
+    text-align: center;
+    color: burlywood;
+    background-image: url("https://cdns.klimg.com/dream.co.id/resized/640x320/news/2020/01/17/127377/kalau-diperhatikan-ternyata-hanya-ada-10-desain-poster-film-200117g.jpg");
+    background-position: 670px;
+    border-radius: 2px;
+    border-bottom-style: solid;
+}
+
+header .judul p {
+    transform: translateY(-20px);
+}
+
+body {
+	font-family: fantasy;
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: burlywood;
+	font-size: 1.2em;
+	padding: 5px;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 15px;
+}
+
+nav {
+	background-color: blue;
+	padding: 2px;
+	position: static;
+}
+
+nav a:hover {
+	color: gray;
+	background-color: wheat;
+	border-radius: 5px;
+}
+
+input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.gender_user, #input_checkbox {
+    display: inline;
+}
+
+.JoinUs {
+    text-align: center;
+    color: burlywood;
+}
+
+.input_user, textarea {
+    border-radius: 2px solid black;
+    border: 2px;
+    padding: 10px;
+    width: 800px;
+    outline: none;
+    border: 2px solid;
+}
+
+.legend , label, p {
+    color: burlywood;
+}
+
+.button {
+    display: inline;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+
+#Member {
+    color: white;
+	width: 0;
+	height: 0;
+	position: fixed;
+	overflow: hidden;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	transition: 1s;
+}
+
+#Member:target {
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, .8);
+	width: auto;
+	height: auto;
+}
+
+#bg-Member {
+	background-color: white;
+	overflow: auto;
+	width: 60%;
+	max-height: 50%;
+	margin: auto;
+	transform: translateY(50%);
+	padding: 0 20px 20px;
+	border-radius: 10px;
+}
+
+#Member a {
+	position: absolute;
+	margin: auto;
+	right: 10px;
+	top: 15%;
+	color: white;
+	text-decoration: none;
+	background-color: #e80729;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#Member a:hover {
+	background-color: orange
+}
+
+.Poster1 {
+	object-fit: cover;
+	object-position: center;
+	margin-left: 40%;
+}
+
+.Poster2 {
+	object-fit: cover;
+	object-position: center;
+	margin-left: 40%;
+}
+
+.Poster3, .Poster4 {
+	margin-left: 40%;
+	height: 390px;
+	width: 260px;
+	object-fit: cover;
+	object-position: center;
+}
+
+main {
+	padding: 20px;
+	overflow: auto;
+}
+
+#konten {
+	float: left;
+    width: 75%;
+    color:black;
+}
+
+#konten #judul {
+	width: 100%;
+}
+
+aside {
+	float: right;
+	width: 23.44%;
+    color: black;
+    border-color: grey;
+    border-radius: 5px;
+    border-style: outset;
+}
+
+.foto-profile {
+	height: 250px;
+	width: 200px;
+}
+
+aside h2 {
+    text-align: center;
+}
+
+aside .profile #biodata table {
+    margin: 0 auto;
+}
+
+footer {
+	background-color:blue;
+	text-align: center;
+	color: white;
+	padding: 2px;
+	font-weight: bold;
+}
+	
